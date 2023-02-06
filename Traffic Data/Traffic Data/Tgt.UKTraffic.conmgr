@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="Tgt.UKTraffic"
+  DTS:DTSID="{09931FCC-13FF-4D79-9B38-EFE059D455F1}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=.\EDW;Initial Catalog=UKTraffic;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Package-{09931FCC-13FF-4D79-9B38-EFE059D455F1}.\EDW.UKTraffic;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
